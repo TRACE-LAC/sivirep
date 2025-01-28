@@ -27,8 +27,10 @@ Authors@R:
     person(given = "Lady", family = "Flórez-Tapiero", role = "ctb"),
     person(given = "Verónica", family = "Tangarife-Arredondo", role = "ctb"),
     person(given = "Gerard", family = "Alarcon", role = "ctb"),
-    person("International Development Research Center (IDRC)", role = "fnd"),
-    person("Pontificia Universidad Javeriana", role = "cph")
+    person("International Development Research Center (IDRC)", role = "fnd",
+           comment = c(ROR = "0445x0472")),
+    person("Pontificia Universidad Javeriana", role = "cph",
+           comment = c(ROR = "03etyjw28"))
   )
 Description: Data wrangling, pre-processing, and generating automated reports 
     from Colombia's epidemiological surveillance system, 
